@@ -41,3 +41,7 @@
       })
 
 })();
+
+$(window).on('load', function() {
+  $('#sound').css('visibility', 'visible');
+});
